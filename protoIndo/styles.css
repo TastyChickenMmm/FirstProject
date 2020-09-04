@@ -6,7 +6,7 @@ body {
 
 /* Headers */
 h1 {
-  border: 2px solid powderblue;
+  /* border: 2px solid powderblue; */
 }
 h2 {
   color: hsl(250, 50%, 40%);
@@ -56,24 +56,39 @@ table {
   background-color: #eee;
 }
 
-/* DEBUG: WHY ISN"T THIS WORKING */
-#toc table {
-  border: 1px solid pink;
-}
-
-#pie_table table, th, td {
+.toc table {
   border: 1px solid black;
 }
 
-#pie_table tr:nth-child(1) {
+.toc tr {
+  text-align: center;
+}
+
+.toc th {
+  border: 1px solid black;
+}
+
+.pie_table table {
+  border: 1px solid black;
+}
+
+.pie_table th {
+  border: 1px solid black;
+}
+
+.pie_table td {
+  border: 1px solid black;
+}
+
+.pie_table tr:nth-child(1) {
   background-color: #999;
 }
 
-#pie_table tr:nth-child(2) {
+.pie_table tr:nth-child(2) {
   background-color: lightgray;
 }
 
-#pie_table td:nth-child(1)
+.pie_table td:nth-child(1)
 {
   background-color: lightgray;
 }
@@ -91,8 +106,7 @@ ul li {
   float: left;
 }
 
-/* DEBUG: WHY ISN"T THIS WORKING EITHER */
-ul li a {
+.nav_bar a {
   display: block;
   color: white;
   text-align: center;
@@ -100,7 +114,7 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+.nav_bar a:hover {
   background-color: #111111;
 }
 
