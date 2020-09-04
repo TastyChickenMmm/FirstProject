@@ -47,7 +47,6 @@ p {
 
 /* Tables */
 table, th, td {
-  border: 1px solid black;
   padding: 5px;
   border-collapse: collapse;
 }
@@ -57,22 +56,52 @@ table {
   background-color: #eee;
 }
 
-#pie-words tr:nth-child(1) {
+/* DEBUG: WHY ISN"T THIS WORKING */
+#toc table {
+  border: 1px solid pink;
+}
+
+#pie_table table, th, td {
+  border: 1px solid black;
+}
+
+#pie_table tr:nth-child(1) {
   background-color: #999;
 }
 
-#pie-words tr:nth-child(2) {
+#pie_table tr:nth-child(2) {
   background-color: lightgray;
 }
 
-#pie-words td:nth-child(1)
+#pie_table td:nth-child(1)
 {
   background-color: lightgray;
 }
 
-/* Unordered List */
+/* Navigation Bar */
 ul {
-  list-style-type: circle;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+/* DEBUG: WHY ISN"T THIS WORKING EITHER */
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
 
 /* Ordered List */
