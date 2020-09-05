@@ -56,6 +56,8 @@ table {
   background-color: #eee;
 }
 
+/* Table of Contents */
+
 .toc table {
   border: 1px solid black;
 }
@@ -67,6 +69,12 @@ table {
 .toc th {
   border: 1px solid black;
 }
+
+.toc a:visited {
+  color: blue;
+}
+
+/* Table of PIE Words */
 
 .pie_table table {
   border: 1px solid black;
