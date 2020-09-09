@@ -3,9 +3,15 @@
 }
 
 /* Flexbox Layout Stuff */
-.header {
+.tiptop {
   text-align: center;
-  padding: 32px;
+  padding: 40px;
+  color: hsl(20, 100%, 10%);
+  background-color: #cf592c;
+  background-image: url("images/tiptop_background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .side {
@@ -31,6 +37,11 @@
   vertical-align: middle;
 }
 
+.footer {
+  text-align: center;
+}
+
+
 @media screen and (max-width: 1000px) {
   .row{
     flex-direction: column;
@@ -48,10 +59,10 @@ h1 {
   /* border: 2px solid powderblue; */
 }
 h2 {
-  color: hsl(250, 50%, 40%);
+  /* color: hsl(250, 50%, 40%); */
 }
 h3 {
-  color: hsl(10, 70%, 60%);
+  /* color: hsl(10, 70%, 60%); */
 }
 
 /* Links */
@@ -176,4 +187,8 @@ dt {
 
 dd {
   color: darkslategray;
+}
+
+#top {
+  text-align: center;
 }
