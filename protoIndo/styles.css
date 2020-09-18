@@ -51,7 +51,7 @@
 /* Body */
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Verdana, sans-serif;
 }
 
 /* Headers */
@@ -117,7 +117,8 @@ table {
 }
 
 .toc th {
-  /* border: 1px solid black; */
+  text-decoration: underline;
+  padding-top: 10px;
 }
 
 .toc a:visited {
