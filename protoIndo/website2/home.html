@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Home Page: Linguistics</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Linguistics Site">
+    <meta name="keywords" content="linguistics, Proto-Indo-European">
+    <meta name="author" content="Daniel Xu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Personal Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importing Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- The Website Title -->
+      <div class="row bg-warning" id = "tiptop">
+        <div class="mx-auto">
+          <h1>My Linguistics Website</h1>
+        </div>
+      </div>
+
+      <!-- Sticky Nav Bar -->
+      <div class="row bg-dark sticky-top" id = "navbar-opacity-lower">
+        <nav class = "navbar navbar-expand-sm sticky-top white-links">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="protoIndo.html">Proto-Indo-European</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Intro Image Carousel -->
+      <div id="carousel" class="carousel slide" data-ride="carousel" style="padding:0px; margin: 0px; width:100%; height: device-height; border-bottom: 5px solid #ff4011;">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+          <li data-target="#carousel" data-slide-to="3"></li>
+          <li data-target="#carousel" data-slide-to="4"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner" style="padding:0px; margin:0px; width:100%; height:100%;">
+          <div class="carousel-item active">
+            <img src="images/images/peopledoingstuff.jpg" alt="Some People" style="width:100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/images/ipa.jpg" alt="IPA Tongue Positions" style="width:100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/images/linearb.jpg" alt="Linear B Tablets" style="width:100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/images/psycholing.jpg" alt="Psycholinguistics" style="width:100%;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/images/brain.jpg" alt="Brain" style="width:100%;">
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <!-- Cards -->
+      <div class="container" style="margin-top: 20px;">
+        <!-- PIE -->
+        <div class="card bg-light home-card">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card-body text-center">
+                <h4 class = "card-title">Proto-Indo-European</h4>
+                <p class="card-text" style="line-height: 2;">Historical linguistics studies how languages
+                  have changed over time, from modern sounds to dialects spoken millenia ago.
+                  Visit the PIE site to learn the classic example of this fascinating field.</p>
+                  <a href="protoIndo.html" class="btn btn-primary text-primary">Visit Site</a>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <img class="card-image-top" src="images/images/dwoh.jpg" alt="Evolution of Two" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+
+        <!-- Resources -->
+        <div class="card bg-light home-card">
+          <div class="row">
+            <div class="col-md-8">
+              <img class="card-image-top" src="images/images/books.jpg" alt="books" style="width: 100%;">
+            </div>
+            <div class="col-md-4">
+              <div class="card-body text-center">
+                <h4 class = "card-title">Resources</h4>
+                <p class="card-text" style="line-height: 2;">Still hungry for more? There's loads
+                to explore, from other fields of linguistics, to deciphering ancient scripts, to making
+              your own languages. Check out some resources I've compiled for you!</p>
+                  <a href="resources.html" class="btn btn-primary text-primary">Visit Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="card bg-light home-card">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card-body text-center">
+                <h4 class = "card-title">FAQ</h4>
+                <p class="card-text" style="line-height: 2;">Do you still have questions? Or maybe you want
+                 to know more about me? Why not visit the FAQ page? Would that be enough questions for you?</p>
+                  <a href="faq.html" class="btn btn-primary text-primary">What?</a>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <img class="card-image-top" src="images/images/faq.png" alt="FAQs" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comics -->
+      <div class="container-fluid bg-light text-center" style="border-top:5px solid #ff4011; border-bottom:5px solid #ff4011; padding: 10px;">
+        <p>If that's not enough for you, take a few xkcd comics! Click the buttons below to switch images.</p>
+
+        <div class = "container">
+          <iframe src="images/comics/comic_1.png" name = "iframe_comic" title = "Linguistcs Comics" style="width:750px; height:330px;"></iframe>
+        </div>
+        <div class = "container">
+          <ul class="pagination bg-light dark-links" style="display:table; margin:0 auto;">
+            <li class="page-item"><a class="page-link" href="images/comics/comic_1.png" target = "iframe_comic">Comic 1</a></li>
+            <li class="page-item"><a class="page-link" href="images/comics/comic_2.png" target = "iframe_comic">Comic 2</a></li>
+            <li class="page-item"><a class="page-link" href="images/comics/comic_3.png" target = "iframe_comic">Comic 3</a></li>
+            <li class="page-item"><a class="page-link" href="images/comics/comic_4.png" target = "iframe_comic">Comic 4</a></li>
+            <li class="page-item"><a class="page-link" href="images/comics/comic_5.png" target = "iframe_comic">Comic 5</a></li>
+            <li class="page-item"><a class="page-link" href="images/comics/comic_6.png" target = "iframe_comic">Comic 6</a></li>
+            <li class="page-item"><a class="page-link" href="images/comics/comic_7.png" target = "iframe_comic">Comic 7</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Back to top button -->
+      <div class="container-fluid text-center white-links" style="padding: 5px;">
+        <a href="#tiptop" class="btn btn-dark btn-block bg-dark" role="button">Back to top</a>
+      </div>
+
+      <!-- Contact & Description -->
+      <div class="contaier-fluid text-center dark-links" style="border-top:5px solid #ff4011; background-color:#ffa060; padding: 10px; font-size: 80%;">
+        <p>
+          Assume all information is from Wikipedia unless otherwise stated.
+        </p>
+        <div class="row">
+          <div class="col">
+            <img src="images/icons/gmail-logo.png" alt="gmail" style="height: 20px;">
+            daniel.got.fan.mail@gmail.com
+          </div>
+          <div class="col">
+            <img src="images/icons/insta-logo.png" alt="instagram" style="height: 20px;">
+            daniel_got_fan_mail
+          </div>
+          <div class="col">
+            <img src="images/icons/discord-logo.png" alt="discord" style="height: 20px;">
+            daniel_got_fan_mail#1234
+          </div>
+        </div>
+
+        <br />
+        <p>This website was a Computer Science project made by Daniel Xu in 2020 at The Bishop's School.
+        The information provided is not guaranteed to be accurate, and I am not responsible for any misconceptions
+        you learn that cause you to embarrass yourelf in the future. Donate me money so I
+        can buy myself some ice cream after school. Every $5 keeps me alive for another day.
+        Please support my fabulous work.</p>
+      </div>
+
+
+    </div>
+  </body>
+</html>
