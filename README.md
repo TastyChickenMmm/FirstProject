@@ -14,3 +14,6 @@ Finished Bootstrap I with commit 0f691f3.
     - Media Objects (Quotes at bottom of Contact Me)
     - Carousel (Scrolls through multiple quotes at bottom of Contact Me)
     - Pagination (I used the pagination class, but it was really just a list of buttons. At bottom of Home.)
+    
+
+FRIEDLY REMINDER TO LOOK AT WEBSITE 2
