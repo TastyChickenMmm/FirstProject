@@ -98,6 +98,7 @@ body {
   margin: 0;
   font-family: Helvetica, Verdana, sans-serif;
   background-image: url("images/graphics/galaxy_background.jpg");
+  background-attachment: fixed;
   background-repeat: repeat-y;
   background-size: cover;
 }
