@@ -29,14 +29,21 @@ html {
 #home_main {
 }
 
-.white-links a:link{
+.light-links a:link{
   display: block;
   color: white;
   text-align: center;
   text-decoration: none;
 }
 
-.white-links a:visited{
+.light-links a:visited{
+  display: block;
+  color: #cccccc;
+  text-align: center;
+  text-decoration: none;
+}
+
+.light-links a:hover{
   display: block;
   color: white;
   text-align: center;
@@ -44,7 +51,7 @@ html {
 }
 
 .dark-links a:link{
-  color: blue;
+  color: #cccccc;
   text-decoration: none;
 }
 
