@@ -6,11 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Flexbox Layout Stuff */
+/* Website Title Text & Image */
 #tiptop {
   text-align: center;
   padding: 40px;
-  color: hsl(20, 100%, 10%);
+  color: #f0f0ff;
+  text-shadow: 1px 1px #050000;
   background-color: #cf592c;
   background-image: url("images/graphics/tiptop_background.jpg");
   background-position: center;
@@ -18,17 +19,35 @@ html {
   background-repeat: no-repeat;
 }
 
-.carousel-container {
-  background-image: url("images/images/brain.jpg");
+/* Page Title */
+#top {
+  text-align: center;
 }
 
-#navbar-opacity-lower {
+/* Semi-transparent navbar */
+.navbar-opacity-lower {
+  background-color: #292b2c;
   opacity: 95%;
 }
 
-#home_main {
+/* Thin bars to put on things for style */
+.topbar {
+  border-top:5px solid #efd3c4;
 }
 
+.bottombar{
+  border-bottom:5px solid #efd3c4;
+}
+
+/* Footer */
+.footer {
+  background-color:#ddd4e4;
+  padding: 10px;
+  font-size: 80%;
+  text-align: center;
+}
+
+/* Light links */
 .light-links a:link{
   display: block;
   color: white;
@@ -50,6 +69,7 @@ html {
   text-decoration: none;
 }
 
+/* Blue links */
 .dark-links a:link{
   color: #cccccc;
   text-decoration: none;
@@ -60,44 +80,16 @@ html {
   text-decoration: none;
 }
 
+/* The giant cards on the home page */
 .home-card {
   margin: 20px;
   width: 100%;
 }
 
-
-.side {
-  flex: 15%;
-  background-color: #f1f1f1;
-  padding: 0px;
-  border-right: 1px solid black;
-}
-
+/* Format stuff */
 .row {
   display: flex;
   flex-wrap: wrap;
-}
-
-.main {
-  flex: 85%;
-  background-color: white;
-  padding: 20px;
-}
-
-.main img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-.footer {
-  text-align: center;
-}
-
-
-@media screen and (max-width: 1000px) {
-  .row{
-    flex-direction: column;
-  }
 }
 
 /* Body */
@@ -108,17 +100,6 @@ body {
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-size: cover;
-}
-
-/* Headers */
-h1 {
-  /* border: 2px solid powderblue; */
-}
-h2 {
-  /* color: hsl(250, 50%, 40%); */
-}
-h3 {
-  /* color: hsl(10, 70%, 60%); */
 }
 
 /* Links */
@@ -159,7 +140,7 @@ table, th, td {
 
 table {
   border-spacing: 1px;
-  background-color: #eee;
+  background-color: #eeeeee;
 }
 
 /* Table of Contents */
@@ -170,6 +151,7 @@ table {
 
 .toc tr {
   text-align: center;
+  font-size:90%;
 }
 
 .toc th {
@@ -179,6 +161,16 @@ table {
 
 .toc a:visited {
   color: blue;
+}
+
+/* Text on cards */
+.card-text{
+  text-indent: 0px;
+}
+
+/* Answers to the FAQs */
+.faa{
+  padding-top: 10px;
 }
 
 /* Table of PIE Words */
@@ -233,10 +225,6 @@ ul li {
   background-color: #111111;
 }
 
-/* Ordered List */
-ol {
-}
-
 /* Description List */
 dt {
   font-weight: normal;
@@ -244,8 +232,4 @@ dt {
 
 dd {
   color: darkslategray;
-}
-
-#top {
-  text-align: center;
 }

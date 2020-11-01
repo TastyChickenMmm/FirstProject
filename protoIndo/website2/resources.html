@@ -25,9 +25,9 @@
       </div>
 
       <!-- Sticky Nav Bar -->
-      <div class="row bg-dark sticky-top" id = "navbar-opacity-lower"  style="font-size:40px;">
+      <div class="row sticky-top navbar-opacity-lower" style="font-size:40px;">
         <nav class = "navbar navbar-expand-sm sticky-top light-links">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav navbar-opacity-lower">
             <li class="nav-item">
               <a class="nav-link" href="home.html">Home</a>
             </li>
@@ -44,12 +44,82 @@
         </nav>
       </div>
 
-      <div class="row bg-light">
-        <div class="col-lg-2 col-sm-4">
-          Table of Contents
+      <!-- Main -->
+      <div class="row" style="padding-top: 10px;">
+        <div class="col-lg-2 col-sm-4" style="border-right:1px solid black; background-color:#eeeeee;" height = device-height>
+          <!-- Table of Contents -->
+          <table style = "width:100%;" class = "toc">
+            <tr>
+              <th>Table of Contents</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="#pie_words">Proto-Indo-European Vocabulary</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#glossary">Linguistics Glossary</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#more">Further Resources</a>
+              </td>
+            </tr>
+          </table>
         </div>
-        <div class="col-lg-10 col-sm-8">
-          Stuff
+        <div class="col-lg-10 col-sm-8 bg-light">
+          <h2 id = "top" style="padding: 20px;">Resources <hr /></h2>
+
+          <!-- PIE Vocabulary -->
+          <h3 id = "pie_words">PIE Vocabulary</h3>
+          <p>In this section I show a few of my favorite PIE words, and how they changed evolved in other Indo-European languages
+            in each of the major families of descendents. A more complete list can be found on
+            <a href="https://en.wikipedia.org/wiki/Indo-European_vocabulary" target= "_blank">Wikipedia.</a>
+            You will find many weird-looking vowels. The precise sound of each vowel can
+            be found <a href="https://academiaprisca.org/indoeuropean/indo-european_word.htm" target= "_blank">here.</a>
+          </p>
+          <p>
+            The oldest well-documented language of each family is given, although modern
+            forms are also given for comparison purposes. Languages are followed
+            by the symbol <i>c</i>, standing for <i>circa</i>, which is followed by the
+            approximate time period in which the language was spoken.
+          </p>
+
+          <!-- PIE Words Table -->
+          <iframe src="pietable.html" width="100%" height="600px"></iframe>
+
+          <!-- Linguistics Glossary -->
+          <h3 id = "glossary">Linguistics Glossary</h3>
+          <p>A collection of terms related to/helpful for understanding linguistcs.</p>
+          <!-- Linguistics Terms List Begin -->
+          <dl>
+            <dt>Cognate</dt>
+            <dd>- a word with the same etymological origin as another, typically
+            through a shared parent language.</dd>
+            <dt>Language Family</dt>
+            <dd>- A group of languages related through descent from a common
+              <i>ancestral language</i> or <i>parental language</i>.
+            </dd>
+            <dt>Parent Language</dt>
+            <dd>
+              - The language from which another language derives from.
+            </dd>
+            <dt>Proto-language</dt>
+            <dd>- The common parent language of a language family.</dd>
+          </dl>
+
+          <!-- Further Resources -->
+          <h3 id = "more">Further Resources</h3>
+          <ol>
+            <li>blah blah blah</li>
+            <li>bleh bleh bleh</li>
+            <li>blih blih blih</li>
+            <li>bloh bloh bloh</li>
+            <li>bluh bluh bluh</li>
+            <li>and sometimes blyh blyh blyh</li>
+          </ol>
         </div>
       </div>
 
@@ -59,7 +129,7 @@
       </div>
 
       <!-- Contact & Description -->
-      <div class="contaier-fluid text-center dark-links" style="border-top:5px solid #ff4011; background-color:#ffa060; padding: 10px; font-size: 80%;">
+      <div class="contaier-fluid text-center dark-links topbar footer">
         <p>
           Assume all information is from Wikipedia unless otherwise stated.
         </p>
